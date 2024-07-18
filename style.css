@@ -1,0 +1,104 @@
+/* Apply reset styles and set font family for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.644), rgba(24, 118, 0, 0.85)), url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+    text-align: center;
+    color: #fff;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; /* Added padding for better spacing on small screens */
+}
+
+.logo {
+    width: 120px; /* Reduced logo size for smaller screens */
+    cursor: pointer;
+}
+
+.btn {
+    background: linear-gradient(45deg, #00b147c4, #007F30);
+    color: #ffffff;
+    font-size: 16px;
+    padding: 14px 28px; /* Adjusted button padding for smaller screens */
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.content {
+    margin: 15% auto 0;
+    padding: 0 10px; /* Added padding for better content alignment on small screens */
+}
+
+.content h1 {
+    font-size: 45px; /* Reduced font size for smaller screens */
+    font-weight: 400;
+    line-height: 1.2; /* Improved line height for readability */
+}
+
+.content h1 span {
+    font-weight: 700;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+    height: 55px; /* Reduced form height for smaller screens */
+    background: #fff;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 30px; /* Reduced margin top for better spacing on small screens */
+    margin-bottom: 15px; /* Reduced margin bottom for better spacing on small screens */
+}
+
+form input {
+    flex: 1;
+    padding: 18px 25px; /* Adjusted input padding for smaller screens */
+    font-size: 14px; /* Reduced font size for smaller screens */
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+form .btn {
+    padding: 0;
+    width: 130px; /* Reduced button width for smaller screens */
+    height: 55px; /* Adjusted button height for smaller screens */
+    border-radius: 28px;
+}
+
+form input::placeholder {
+    font-size: 14px; /* Reduced placeholder font size for smaller screens */
+}
+
+.links {
+    margin-top: 10%; /* Adjusted top margin for smaller screens */
+    display: flex;
+    justify-content: center; /* Centered links horizontally */
+}
+
+.links a {
+    margin: 10px;
+}
+
+.links a img {
+    width: 25px; /* Reduced image size for smaller screens */
+}
